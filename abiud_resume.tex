@@ -5,14 +5,18 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{parskip}
+\usepackage{fontawesome} % icons
 
+%==================
+% Color & Link Theme
+%==================
+\definecolor{customblue}{HTML}{0A66C2} % LinkedIn Blue
 \hypersetup{
     colorlinks=true,
-    urlcolor=blue,
+    urlcolor=customblue,
     linkcolor=black
 }
-
-\titleformat{\section}{\bfseries\uppercase}{\thesection}{1em}{}[\titlerule]
+\titleformat{\section}{\color{customblue}\bfseries\uppercase}{\thesection}{1em}{}[\titlerule]
 
 \begin{document}
 
@@ -22,11 +26,11 @@
 \begin{center}
     {\Huge \textbf{Abiud Wamalwa}}\\
     Bungoma, Kenya \\
-    \href{mailto:abiudwamalwa1979@gmail.com}{abiudwamalwa1979@gmail.com} \\
-    Phone: +254 792 129 479 \\
-    GitHub: \href{https://github.com/waabiud}{waabiud} \quad
-    LinkedIn: \href{https://linkedin.com/in/abiud-wamalwa}{abiud-wamalwa} \quad
-    Wonderful: \href{https://wonderful.dev/waabiud}{Abiud Wamalwa}
+    \faEnvelope\ \href{mailto:abiudwamalwa1979@gmail.com}{abiudwamalwa1979@gmail.com} \quad
+    \faPhone\ +254 792 129 479 \\
+    \faGithub\ \href{https://github.com/waabiud}{GitHub} \quad
+    \faLinkedin\ \href{https://linkedin.com/in/abiud-wamalwa}{LinkedIn} \quad
+    \faGlobe\ \href{https://wamalwa.co.ke}{Portfolio}
 \end{center}
 
 %==================
@@ -49,15 +53,12 @@ Motivated Mathematics and Computing student specializing in Full Stack Developme
 \end{itemize}
 
 %==================
-% Work Experience
+% Certifications
 %==================
-\section*{Work History}
-\textbf{Frontend Developer (Freelance)} \hfill \textit{Upwork} \\
-\textit{March 2023 – Present}
+\section*{Certifications}
 \begin{itemize}[leftmargin=*]
-    \item Built responsive web and e-commerce applications using ReactJS, JavaScript, and Bootstrap.
-    \item Integrated M-Pesa and PayPal for secure payment handling.
-    \item Implemented shopping carts, order tracking, and login systems with clean and optimized code.
+    \item \faCheckCircle\ CompTIA A++ — \textit{2022}
+    \item \faAws\ AWS Certified Cloud Architect — \textit{2023}
 \end{itemize}
 
 %==================
@@ -72,6 +73,18 @@ Secure web-based voting app with role-based login, encrypted data storage, and r
 
 \textbf{Music Player Web App (MERN)} \\
 Feature-rich app with genres, speed control, and light/dark modes; demonstrates UI/UX skills and functional programming.
+
+%==================
+% Work Experience
+%==================
+\section*{Work History}
+\textbf{Frontend Developer (Freelance)} \hfill \textit{Upwork} \\
+\textit{March 2023 – Present}
+\begin{itemize}[leftmargin=*]
+    \item Built responsive web and e-commerce applications using ReactJS, JavaScript, and Bootstrap.
+    \item Integrated M-Pesa and PayPal for secure payment handling.
+    \item Implemented shopping carts, order tracking, and login systems with clean and optimized code.
+\end{itemize}
 
 %==================
 % Education
@@ -101,7 +114,7 @@ Swahili: Fluent
 % Interests
 %==================
 \section*{Interests}
-AI and Machine Learning, Coding, RnB Music, Outdoor Activities, Community Involvement
+AI and Machine Learning, Coding, Outdoor Activities, Community Involvement
 
 %==================
 % References
@@ -110,14 +123,14 @@ AI and Machine Learning, Coding, RnB Music, Outdoor Activities, Community Involv
 
 \textbf{Wafula Samuel} \\
 Software Engineer — Fraym \\
-Phone: +254 727 007 405 \\
-Email: \href{mailto:samziggler@gmail.com}{samziggler@gmail.com}
+\faPhone\ +254 727 007 405 \\
+\faEnvelope\ \href{mailto:samziggler@gmail.com}{samziggler@gmail.com}
 
 \vspace{0.5em}
 
 \textbf{Dickson Makulia} \\
 Network Administrator — Maruway Networks \\
-Phone: +254 713 005 403 \\
-Email: \href{mailto:makulia.dickson@gmail.com}{makulia.dickson@gmail.com}
+\faPhone\ +254 713 005 403 \\
+\faEnvelope\ \href{mailto:makulia.dickson@gmail.com}{makulia.dickson@gmail.com}
 
 \end{document}
